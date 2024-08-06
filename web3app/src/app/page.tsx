@@ -12,6 +12,7 @@ export default function Home() {
                 justifyContent: "center",
                 alignItems: "center",
                 padding: "20px",
+                minHeight: "100vh",
             }}>
             <h1 style={{ marginBottom: "20px" }}>Accountability App</h1>
             <ConnectEmbed client={client} chain={chain} />
