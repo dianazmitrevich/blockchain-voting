@@ -34,7 +34,7 @@ export const Accountability = () => {
                     ) : (
                         <>
                             <div style={{ marginTop: "20px" }}>
-                                <h3>Locked Funds: {toEther(depositAmount!)}</h3>
+                                <h3>Locked Funds: {depositAmount && toEther(depositAmount!)}</h3>
                                 <p style={{ fontSize: "12px" }}>Funds will ne returned once all tasks are completed.</p>
                                 <AddTask />
                                 <TaskList />
